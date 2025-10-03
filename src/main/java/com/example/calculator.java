@@ -11,7 +11,10 @@ public class Calculator {
     public int multiply(int a, int b) {
         return a*b;
     }
-     public double add(double a, double b) {
+    public double add(double a, double b) {
         return a + b;
+    }
+    public double div(int a, int b) {
+        return 1.0*a/b;
     }
 }
