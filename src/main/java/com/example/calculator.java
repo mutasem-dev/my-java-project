@@ -2,10 +2,10 @@
 package com.example;
 
 public class Calculator {
-    public int add(int a, int b) {
+
+    public long add(int a, int b) {
         //this is core addition function
-        //again
-        return a + b;
+        return (long)a + b;
     }
     public int sub(int a, int b) {
 	return a-b;
@@ -18,5 +18,8 @@ public class Calculator {
     }
     public double div(int a, int b) {
         return 1.0*a/b;
+    }
+    public double sub(double a, double b) {
+        return a - b;
     }
 }
