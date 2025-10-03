@@ -2,10 +2,15 @@
 package com.example;
 
 public class Calculator {
+<<<<<<< HEAD
 
     public long add(int a, int b) {
         //this is core addition function
         return (long)a + b;
+=======
+    public int add(int a, int b) {
+        return a + b;
+>>>>>>> parent of fa61ec4 (add comment to add function)
     }
     public int sub(int a, int b) {
 	return a-b;
