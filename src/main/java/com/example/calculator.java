@@ -2,8 +2,8 @@
 package com.example;
 
 public class Calculator {
-    public int add(int a, int b) {
-        return a + b;
+    public long add(int a, int b) {
+        return (long)a + b;
     }
     public int sub(int a, int b) {
 	return a-b;
